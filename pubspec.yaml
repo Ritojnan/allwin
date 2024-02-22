@@ -1,0 +1,40 @@
+name: allwin
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # flutter_webview_plugin: ^0.4.0  # Add this line
+  image_picker: ^1.0.7
+  http: ^1.2.1
+  video_player: ^2.8.2
+  flutter_barcode_scanner: ^2.0.0
+  simple_barcode_scanner: ^0.0.8
+  path_provider: ^2.0.15
+  google_generative_ai: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
